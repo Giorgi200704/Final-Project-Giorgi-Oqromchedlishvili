@@ -1,0 +1,77 @@
+.boxx2 {
+  display: flex;
+}
+.boxx2 .backbox {
+  height: 655px;
+  background-image: url("/photos/skiing-bakuriani.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+.boxx2 .backbox h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.boxx2 .backbox p {
+  font-size: 26px;
+  color: #000000;
+}
+
+.container .boxxx1 {
+  gap: 45px;
+  display: flex;
+  justify-content: center;
+}
+.container .boxxx1 img {
+  width: 324px;
+  height: 324px;
+  display: flex;
+}
+.container .boxxx1 h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.container .boxxx1 p {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.container .boxxx2 {
+  gap: 45px;
+  display: flex;
+  justify-content: center;
+}
+.container .boxxx2 img {
+  width: 324px;
+  height: 324px;
+  display: flex;
+}
+.container .boxxx2 h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.container .boxxx2 p {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 10px;
+}/*# sourceMappingURL=page3.css.map */
