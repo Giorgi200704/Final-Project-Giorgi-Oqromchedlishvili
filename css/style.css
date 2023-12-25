@@ -27,7 +27,7 @@
 }
 
 section .mountains {
-  height: 806PX;
+  height: 806px;
   background-image: url("/tbilisi-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,11 +42,11 @@ section .mountains h2 {
   margin-bottom: 31px;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
 }
 section .mountains p {
   font-size: 26px;
-  color: #FFF;
+  color: #fff;
 }
 section .mountains a {
   margin: 40px;
@@ -56,7 +56,7 @@ section .mountains a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-size: 26px;
   border-radius: 8px;
 }
@@ -112,7 +112,7 @@ section .mountains a {
 footer {
   width: 100%;
   height: 400px;
-  background: #E4E4E4;
+  background: #e4e4e4;
   display: flex;
 }
 footer .left {

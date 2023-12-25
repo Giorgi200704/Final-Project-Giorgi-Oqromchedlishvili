@@ -1,0 +1,366 @@
+.meinimg {
+  height: 601px;
+  background-image: url("/photos/meinimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.meinimg h2 {
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.list .zemo {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+@media (width <= 768px) {
+  .list .zemo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .zemo img {
+  width: 20.25vw;
+  height: 41.7852522639vh;
+}
+@media (width <= 768px) {
+  .list .zemo img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .zemo img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .zemo img {
+    width: 90vw;
+  }
+}
+.list .zemo h3 {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+.list .zemo a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .zemo a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .zemo a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .zemo a {
+    width: 55vw;
+    margin-left: 20%;
+  }
+}
+.list .zemo a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .shua {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 190px;
+}
+@media (width <= 380px) {
+  .list .shua {
+    margin-top: 55px;
+  }
+}
+@media (width <= 768px) {
+  .list .shua {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .shua img {
+  width: 20.25vw;
+  height: 41.91461837vh;
+}
+@media (width <= 768px) {
+  .list .shua img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .shua img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .shua img {
+    width: 90vw;
+  }
+}
+.list .shua h3 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+.list .shua a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .shua a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .shua a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .shua a {
+    width: 55vw;
+    margin-left: 20%;
+  }
+}
+.list .shua a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .qvemo {
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+@media (width <= 380px) {
+  .list .qvemo {
+    margin-top: 55px;
+  }
+}
+@media (width <= 768px) {
+  .list .qvemo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.list .qvemo img {
+  width: 20.25vw;
+  height: 41.91461837vh;
+}
+@media (width <= 768px) {
+  .list .qvemo img {
+    width: 37vw;
+    align-items: center;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo img {
+    width: 69vw;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo img {
+    width: 90vw;
+  }
+}
+.list .qvemo h3 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 29px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 48px;
+  width: 20.1875vw;
+}
+@media (width <= 768px) {
+  .list .qvemo h3 {
+    margin-left: 22%;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    text-align: center;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo h3 {
+    margin-left: 35%;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo h3 {
+    margin-left: 38%;
+  }
+}
+.list .qvemo a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #000000;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20.25vw;
+  height: 8.7968952135vh;
+}
+@media (width <= 768px) {
+  .list .qvemo a {
+    margin-left: 22%;
+  }
+}
+@media (width <= 425px) {
+  .list .qvemo a {
+    width: 38.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .qvemo a {
+    width: 55vw;
+    margin-left: 19%;
+  }
+}
+.list .qvemo a p {
+  color: #fff;
+  font-family: kalnia;
+  font-size: 30px;
+  font-weight: 400;
+}
+.list .cubes {
+  display: flex;
+  justify-content: center;
+  margin-top: 134px;
+  gap: 8px;
+  margin-bottom: 190px;
+}
+.list .cubes .N1 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N1 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N1 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N1 {
+    width: 11.5vw;
+  }
+}
+.list .cubes .N2 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N2 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N2 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N2 {
+    width: 11.5vw;
+  }
+}
+.list .cubes .N3 {
+  width: 2.5vw;
+  height: 5.1746442432vh;
+  background: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: kalnia;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .list .cubes .N3 {
+    width: 4.5vw;
+  }
+}
+@media (width <= 425px) {
+  .list .cubes .N3 {
+    width: 8.5vw;
+  }
+}
+@media (width <= 380px) {
+  .list .cubes .N3 {
+    width: 11.5vw;
+  }
+}/*# sourceMappingURL=pagePTV.css.map */
