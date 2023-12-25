@@ -91,7 +91,7 @@ a {
 
 section .mountains {
   height: 806px;
-  background-image: url("/tbilisi-back.jpg");
+  background-image: url("/photos/tbilisi-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
