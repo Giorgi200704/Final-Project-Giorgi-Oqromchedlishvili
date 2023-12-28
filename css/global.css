@@ -88,6 +88,9 @@ a {
   color: #000;
   font-size: 25px;
 }
+.headcont .icon2 {
+  display: none;
+}
 
 section .mountains {
   height: 806px;
@@ -106,6 +109,7 @@ section .mountains h2 {
   justify-content: center;
   align-items: center;
   color: #fff;
+  text-align: center;
 }
 section .mountains p {
   font-size: 26px;

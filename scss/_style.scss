@@ -26,6 +26,9 @@
     color: #000;
     font-size: 25px;
   }
+  .icon2 {
+    display: none;
+  }
 }
 section {
   .mountains {
@@ -44,6 +47,7 @@ section {
       justify-content: center;
       align-items: center;
       color: #fff;
+      text-align: center;
     }
     p {
       font-size: 26px;
