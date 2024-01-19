@@ -10,6 +10,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  input[type="checkbox"] {
+    display: none;
+  }
+  input:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 12px;
+    // @include mobileS {
+    //   padding-top: 367px;
+    // }
+  }
+  .bar {
+    display: none;
+    // @include mobileS {
+    //   display: block;
+    // }
+    .fa-solid {
+      font-size: 40px;
+    }
+  }
   a {
     color: #000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -25,9 +46,6 @@
   .icon1 {
     color: #000;
     font-size: 25px;
-  }
-  .icon2 {
-    display: none;
   }
 }
 section {
@@ -114,16 +132,27 @@ section {
     }
   }
 }
+@mixin mobileS {
+  @media (width <= 380px) {
+    @content;
+  }
+}
 footer {
   width: 100%;
   height: 400px;
   background: #e4e4e4;
   display: flex;
   .left {
+    @include mobileS {
+      width: 30vw;
+    }
     padding-left: 24px;
     padding-top: 35px;
     padding-bottom: 24px;
     img {
+      @include mobileS {
+        width: 220%;
+      }
       margin-bottom: 44px;
     }
     ul {
@@ -154,6 +183,9 @@ footer {
   }
 }
 .help {
+  @include mobileS {
+    width: 40vw;
+  }
   margin-left: 201px;
   h3 {
     color: #000;
@@ -207,6 +239,9 @@ footer {
   }
 }
 .searchbox {
+  @include mobileS {
+    display: none;
+  }
   padding-top: 350px;
   padding-left: 0px;
   .search {

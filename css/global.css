@@ -74,6 +74,21 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.headcont input[type=checkbox] {
+  display: none;
+}
+.headcont input:checked ~ ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 12px;
+}
+.headcont .bar {
+  display: none;
+}
+.headcont .bar .fa-solid {
+  font-size: 40px;
+}
 .headcont a {
   color: #000;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -87,9 +102,6 @@ a {
 .headcont .icon1 {
   color: #000;
   font-size: 25px;
-}
-.headcont .icon2 {
-  display: none;
 }
 
 section .mountains {
@@ -187,8 +199,18 @@ footer .left {
   padding-top: 35px;
   padding-bottom: 24px;
 }
+@media (width <= 380px) {
+  footer .left {
+    width: 30vw;
+  }
+}
 footer .left img {
   margin-bottom: 44px;
+}
+@media (width <= 380px) {
+  footer .left img {
+    width: 220%;
+  }
 }
 footer .left ul li {
   color: #000;
@@ -216,6 +238,11 @@ footer .left .Geo p {
 
 .help {
   margin-left: 201px;
+}
+@media (width <= 380px) {
+  .help {
+    width: 40vw;
+  }
 }
 .help h3 {
   color: #000;
@@ -267,6 +294,11 @@ footer .left .Geo p {
 .searchbox {
   padding-top: 350px;
   padding-left: 0px;
+}
+@media (width <= 380px) {
+  .searchbox {
+    display: none;
+  }
 }
 .searchbox .search {
   height: 30px;
@@ -430,6 +462,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #000000;
+  text-align: center;
 }
 .boxx2 .backbox p {
   font-size: 26px;
@@ -479,6 +512,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #fff;
+  text-align: center;
 }
 
 .centralcont {
@@ -548,6 +582,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #868686;
+  text-align: center;
 }
 
 .meinimg {
@@ -567,6 +602,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #fff;
+  text-align: center;
 }
 
 .list .zemo {
